@@ -1,0 +1,17 @@
+/* declarar unas variables de colores y fuentes*/
+:root{
+/*fuentes*/
+    --titulos: 'Patua One', cursive;
+    --parrafos: 'Roboto', sans-serif;
+    /*colores corporativos*/
+    --encabezado: rgb(95, 66, 86);
+    --piepagina: rgb(17, 16, 16);
+    --enlace: #fff;
+    --enlacesobre: rgb(236, 150, 69);
+    
+}
+/*configuracion global*/
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--titulos);
+}
+
