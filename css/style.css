@@ -10,8 +10,37 @@
     --enlacesobre: rgb(236, 150, 69);
     
 }
+
 /*configuracion global*/
 h1, h2, h3, h4, h5, h6{
     font-family: var(--titulos);
 }
 
+/*selector universal en css es (*) */
+*{
+    /* calcular mejor los paddings o espaciados */
+    box-sizing: border-box;
+}
+
+/* representación de una clase en css(.) */
+.home-wrappe {
+    background-image: url('/actividadII_booksjg/images/background.jpg');
+    background-size: cover;
+
+}
+
+header{
+    width: 100%;
+    background-color: var(--encabezado);
+    position: fixed; /*elemento fijo*/
+    padding-top: 8px;
+
+}
+header nav{
+    float: right;
+    margin-left: 5px;
+    padding: 10px 2px;
+}
+header img{
+    width: 200px;
+}
