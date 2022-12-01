@@ -23,8 +23,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* representación de una clase en css(.) */
+/* Encabezado */
 .home-wrappe {
-    background-image: url('/actividadII_booksjg/images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
 
 }
@@ -44,3 +45,117 @@ header nav{
 header img{
     width: 200px;
 }
+
+header nav a{
+    color: var(--enlace);
+    text-decoration: none;
+    margin-left: 8px;
+    font-weight: bold;
+    }
+
+    header nav a:hover{
+        color: var(--enlacesobre);
+    }
+
+    /* seccion home aplicar estilos a identificador*/
+    #home{
+        text-align: center;
+        padding: 250px 0 250px;
+    }
+
+    #home h1{
+        font-size: 3.0rem;
+        margin-bottom: 30px;
+    }
+
+    #home p{
+        margin-top: 30px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+
+    section{
+        padding-top: 80px;
+    }
+
+    section h2{
+        text-align: center;
+        font-size: 2.2rem;
+        }
+
+        /* Sección Novedades, posicionar elementos en linea o bloque */
+        #novedades .box{
+            display: inline-block;
+            width: 33%;
+            padding: 5px;
+
+        }
+        #novedades .box p{
+            text-align: justify;
+        }
+
+        #novedades .box img{
+            padding-left: 30%;
+            padding-bottom: 10px;
+        }
+
+        #novedades .box h3{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        /* seccion categoria */
+        #categoria .box{
+            display: inline-block;
+            width: 33%;
+            padding: 2px;
+        }
+/* tamaño del 100% de las imagenes del 33% anterior */
+        #categoria .box img{
+            width: 100%;
+        }
+
+        #categoria .box h3{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        #categoria .box p{
+            text-align: justify;
+        }
+
+        /* seccion contacto */
+
+        #contacto{
+            background-image: url('/actividadII_booksjg/images/map-image.png');
+            background-color: black;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        #contacto h2{
+            color: #fff;
+        }
+
+        #contacto textarea,input{
+            width: 450px;
+            border-radius: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-size: 1.2rem;
+            background-color: rgb(106, 196, 199);
+            color: black;
+
+        }
+
+        iframe{
+            margin: 15px 0 10px;
+        }
+        /* footer o pie de pagina */
+        footer{
+            width: 100%;
+            background-color: var(--piepagina);
+            color: #fff;
+            padding-top: 10px;padding-bottom: 10px;
+        }
